@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Perfume - ShopMate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-white">
+
+<!-- Header -->
+<header class="bg-[#131921] text-white sticky top-0 z-50">
+  <div class="flex items-center justify-between px-4 py-2">
+    <a href="index.html" class="text-2xl font-bold">ShopMate</a>
+    <div class="flex flex-1 mx-4 max-w-2xl">
+      <input type="text" placeholder="Search" class="flex-1 px-4 py-2 rounded-l text-black">
+      <button class="px-6 bg-[#febd69] rounded-r text-black"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="flex items-center space-x-4">
+      <a href="signin.html" class="hover:underline">Sign in</a>
+      <div class="relative">
+        <i class="fas fa-shopping-cart text-2xl"></i>
+        <span class="absolute -top-2 -right-2 bg-orange-500 text-xs px-1.5 rounded-full">3</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Breadcrumb -->
+<div class="container mx-auto px-4 py-3 text-sm">
+  <a href="index.html" class="text-blue-600 hover:underline">Home</a>
+  <span class="mx-2">›</span>
+  <span>Luxury Perfume</span>
+</div>
+
+<!-- Product Section -->
+<main class="container mx-auto px-4 py-6">
+  <div class="grid lg:grid-cols-12 gap-8">
+    
+    <!-- Left: Image -->
+    <div class="lg:col-span-5">
+      <div class="border rounded-lg p-4 mb-4">
+        <img id="mainImg" src="product14.jpg" alt="Luxury Perfume" class="w-full h-96 object-contain">
+      </div>
+    </div>
+
+    <!-- Middle: Details -->
+    <div class="lg:col-span-4">
+      <h1 class="text-2xl font-normal mb-2">Luxury Perfume - 100ml Eau de Parfum, Long-Lasting Fragrance</h1>
+      
+      <div class="flex items-center space-x-2 mb-4">
+        <div class="text-yellow-500">★★★★★</div>
+        <span class="text-blue-600 text-sm">4.8 (1,234 ratings)</span>
+      </div>
+
+      <div class="mb-4">
+        <span class="text-3xl text-red-700 font-bold">$89.99</span>
+        <span class="text-sm text-gray-600 ml-2 line-through">$129.99</span>
+      </div>
+
+      <p class="text-green-700 font-bold mb-4">In Stock</p>
+
+      <div class="mb-6">
+        <h3 class="font-bold mb-2">Features</h3>
+        <ul class="list-disc list-inside text-sm space-y-1">
+          <li>Long-lasting fragrance up to 12 hours</li>
+          <li>Elegant bottle design</li>
+          <li>Suitable for men & women</li>
+          <li>Top notes: Citrus & Bergamot</li>
+          <li>Middle notes: Jasmine & Rose</li>
+          <li>Base notes: Musk & Vanilla</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right: Buy Box -->
+    <div class="lg:col-span-3">
+      <div class="border rounded-lg p-4 sticky top-24">
+        <div class="text-3xl text-red-700 font-bold mb-2">$89.99</div>
+        <p class="text-sm text-blue-600 mb-4">FREE delivery Tomorrow</p>
+        
+        <p class="text-green-700 font-bold mb-4">In Stock</p>
+
+        <div class="mb-4">
+          <label class="text-sm font-bold">Size:</label>
+          <select class="border rounded px-3 py-1 ml-2">
+            <option>50ml</option>
+            <option>100ml</option>
+            <option>150ml</option>
+          </select>
+        </div>
+
+        <div class="mb-4">
+          <label class="text-sm font-bold">Fragrance Type:</label>
+          <select class="border rounded px-3 py-1 ml-2">
+            <option>Floral</option>
+            <option>Woody</option>
+            <option>Citrus</option>
+          </select>
+        </div>
+
+        <button class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 rounded-full mb-2">
+          Add to Cart
+        </button>
+
+        <button class="w-full bg-orange-400 hover:bg-orange-500 text-black font-bold py-2 rounded-full">
+          Buy Now
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Reviews -->
+  <div class="mt-12">
+    <h2 class="text-2xl font-bold mb-6">Customer Reviews</h2>
+    
+    <div class="space-y-6">
+      <div class="border-t pt-6">
+        <div class="flex items-start space-x-4">
+          <img src="customer9.jpg" alt="User" class="w-12 h-12 rounded-full">
+          <div>
+            <p class="font-bold">Sara Karim</p>
+            <div class="text-yellow-500 text-sm mb-2">★★★★★</div>
+            <p class="text-sm">Smells amazing and lasts all day! Beautiful packaging too.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t pt-6">
+        <div class="flex items-start space-x-4">
+          <img src="customer10.jpg" alt="User" class="w-12 h-12 rounded-full">
+          <div>
+            <p class="font-bold">Ahmed Hossain</p>
+            <div class="text-yellow-500 text-sm mb-2">★★★★☆</div>
+            <p class="text-sm">Nice fragrance but a little strong at first spray. Overall very happy.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t pt-6">
+        <div class="flex items-start space-x-4">
+          <img src="customer8.jpg" alt="User" class="w-12 h-12 rounded-full">
+          <div>
+            <p class="font-bold">Nadia Chowdhury</p>
+            <div class="text-yellow-500 text-sm mb-2">★★★★★</div>
+            <p class="text-sm">Elegant scent and long-lasting. Highly recommend for gifts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-[#232f3e] text-white mt-16">
+  <div class="bg-[#37475a] text-center py-3 cursor-pointer" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    Back to top
+  </div>
+  <div class="container mx-auto px-4 py-8 text-center text-sm text-gray-400">
+    © 2025 ShopMate. All Rights Reserved.
+  </div>
+</footer>
+
+</body>
+</html>

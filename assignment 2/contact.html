@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - ShopMate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-100">
+
+<header class="bg-[#131921] text-white">
+  <div class="flex items-center justify-between px-4 py-3">
+    <a href="index.html" class="text-2xl font-bold">ShopMate</a>
+    <a href="index.html" class="hover:underline">Back to Home</a>
+  </div>
+</header>
+
+<main class="container mx-auto px-4 py-12">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-center mb-8">Contact Us</h1>
+    
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <h2 class="text-2xl font-bold mb-6">Send a message</h2>
+        
+        <form>
+          <div class="mb-4">
+            <label class="block text-sm font-bold mb-2">Name</label>
+            <input type="text" placeholder="John Doe" class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+          </div>
+
+          <div class="mb-4">
+            <label class="block text-sm font-bold mb-2">Email</label>
+            <input type="email" placeholder="john@example.com" class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+          </div>
+
+          <div class="mb-4">
+            <label class="block text-sm font-bold mb-2">Subject</label>
+            <select class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400">
+              <option>Order Issue</option>
+              <option>Product Question</option>
+              <option>Shipping</option>
+              <option>Returns</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="mb-6">
+            <label class="block text-sm font-bold mb-2">Message</label>
+            <textarea rows="5" placeholder="How can we help?" class="w-full border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 rounded">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <div>
+        <div class="bg-white rounded-lg shadow-lg p-8 mb-6">
+          <h2 class="text-2xl font-bold mb-6">Get in touch</h2>
+          
+          <div class="space-y-6">
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-map-marker-alt text-orange-500 text-xl mt-1"></i>
+              <div>
+                <h3 class="font-bold mb-1">Address</h3>
+                <p class="text-gray-600">123 Commerce St<br>New York, NY 10001</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-phone text-orange-500 text-xl mt-1"></i>
+              <div>
+                <h3 class="font-bold mb-1">Phone</h3>
+                <p class="text-gray-600">+1 (800) 123-4567<br>Mon-Fri: 9am - 6pm</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-envelope text-orange-500 text-xl mt-1"></i>
+              <div>
+                <h3 class="font-bold mb-1">Email</h3>
+                <p class="text-gray-600">support@shopmate.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <h2 class="text-2xl font-bold mb-6">Follow us</h2>
+          <div class="flex space-x-4">
+            <a href="#" class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-700">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="bg-blue-400 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-blue-500">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="bg-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center hover:bg-pink-600">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-[#232f3e] text-white mt-12">
+  <div class="container mx-auto px-4 py-8 text-center text-sm text-gray-400">
+    © 2025 ShopMate. All Rights Reserved.
+  </div>
+</footer>
+
+</body>
+</html>
