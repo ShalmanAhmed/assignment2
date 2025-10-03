@@ -7,7 +7,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gradient-to-r from-[#3c2f2f] via-[#2b1d1d] to-[#1a0e0e] text-white">
+<body class="bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#3b82f6] text-white">
+
 
 <!-- HEADER (Amazon style) -->
 <header class="bg-[#131921] text-white sticky top-0 z-50">
@@ -91,7 +92,11 @@
     </div>
   </header>
   
-
+  <section class="relative h-[400px] flex items-center justify-center text-white">
+    <div class="absolute inset-0 bg-gradient-to-r from-[#0f172a]/90 via-[#1e293b]/70 to-[#3b82f6]/40"></div>
+    <div class="relative z-10 text-center">
+      <!-- Your hero content here -->
+  
 <!-- HERO SECTION -->
 
 <section class="relative h-[400px] bg-gradient-to-r from-[#3c2f2f] via-[#2b1d1d] to-[#10e0e] flex items-center justify-center text-blue-600">
@@ -110,7 +115,8 @@
     
     </div>
   </section>
-  
+</div>
+</section>
 <!-- CATEGORIES -->
 <section class="container mx-auto px-4 -mt-20 relative z-30 mb-10">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -147,154 +153,155 @@
   </section>
   
 <!-- FEATURED PRODUCTS -->
-<section id="products" class="py-12 bg-gradient-to-r from-[#3c2f2f] via-[#2b1d1d] to-[#1a0e0e]">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-yellow-400 mb-8">Featured Products</h2>
-  
-      <!-- Row 1 (Products 1–7) -->
-      <div class="overflow-x-auto no-scrollbar flex space-x-6 pb-4 snap-x snap-mandatory">
-        <!-- Product 1 -->
-        <a href="product1.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product1.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Premium Wireless Headphones</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(1,234)</span></div>
-          <div class="text-xl font-bold text-red-400">$99.99</div>
-        </a>
-  
-        <!-- Product 2 -->
-        <a href="product2.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product2.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Smart Watch Fitness Tracker</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(2,567)</span></div>
-          <div class="text-xl font-bold text-red-400">$149.99</div>
-        </a>
-  
-        <!-- Product 3 -->
-        <a href="product3.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product3.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Ergonomic Wireless Mouse</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(892)</span></div>
-          <div class="text-xl font-bold text-red-400">$29.99</div>
-        </a>
-  
-        <!-- Product 4 -->
-        <a href="product4.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product4.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Professional Laptop Bag</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(456)</span></div>
-          <div class="text-xl font-bold text-red-400">$49.99</div>
-        </a>
-  
-        <!-- Product 5 -->
-        <a href="product5.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product5.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Waterproof Bluetooth Speaker</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(3,421)</span></div>
-          <div class="text-xl font-bold text-red-400">$59.99</div>
-        </a>
-  
-        <!-- Product 6 -->
-        <a href="product6.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product6.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">RGB Mechanical Keyboard</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(1,876)</span></div>
-          <div class="text-xl font-bold text-red-400">$79.99</div>
-        </a>
-  
-        <!-- Product 7 -->
-        <a href="product7.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product7.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Fitness Tracker Band</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(2,134)</span></div>
-          <div class="text-xl font-bold text-red-400">$69.99</div>
-        </a>
-      </div>
-  
-      <!-- Row 2 (Products 8–14) -->
-      <div class="overflow-x-auto no-scrollbar flex space-x-6 pb-4 snap-x snap-mandatory mt-6">
-        <!-- Product 8 -->
-        <a href="product8.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product8.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Android Tablet</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(1,023)</span></div>
-          <div class="text-xl font-bold text-red-400">$199.99</div>
-        </a>
-  
-        <!-- Product 9 -->
-        <a href="product9.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product9.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">4K Smart LED TV</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(4,232)</span></div>
-          <div class="text-xl font-bold text-red-400">$499.99</div>
-        </a>
-  
-        <!-- Product 10 -->
-        <a href="product10.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product10.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Running Shoes</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(3,200)</span></div>
-          <div class="text-xl font-bold text-red-400">$89.99</div>
-        </a>
-  
-        <!-- Product 11 -->
-        <a href="product11.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product11.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Travel Backpack</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(854)</span></div>
-          <div class="text-xl font-bold text-red-400">$59.99</div>
-        </a>
-  
-        <!-- Product 12 -->
-        <a href="product12.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product12.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">DSLR Camera</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(3,112)</span></div>
-          <div class="text-xl font-bold text-red-400">$699.99</div>
-        </a>
-  
-        <!-- Product 13 -->
-        <a href="product13.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product13.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Polarized Sunglasses</h3>
-          <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(2,234)</span></div>
-          <div class="text-xl font-bold text-red-400">$39.99</div>
-        </a>
-  
-        <!-- Product 14 -->
-        <a href="product14.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product14.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Luxury Perfume</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(1,234)</span></div>
-          <div class="text-xl font-bold text-red-400">$89.99</div>
-        </a>
-      </div>
-  
-      <!-- Row 3 (Products 15–16) -->
-      <div class="overflow-x-auto no-scrollbar flex space-x-6 pb-4 snap-x snap-mandatory mt-6">
-        <!-- Product 15 -->
-        <a href="product15.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product15.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Automatic Washing Machine</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(1,876)</span></div>
-          <div class="text-xl font-bold text-red-400">$399.99</div>
-        </a>
-  
-        <!-- Product 16 -->
-        <a href="product16.html" class="min-w-[220px] snap-start bg-white/20 rounded-lg shadow-md p-4 hover:shadow-xl transition block overflow-hidden group">
-          <img src="product16.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
-          <h3 class="font-semibold text-white/90">Latest Smartphone</h3>
-          <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(6,432)</span></div>
-          <div class="text-xl font-bold text-red-400">$899.99</div>
-        </a>
-      </div>
+<section id="products" class="py-12 bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#111827]">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-8">Featured Products</h2>
+
+    <!-- Row 1 (Products 1–7) -->
+    <div class="overflow-x-auto no-scrollbar flex space-x-6 pb-4 snap-x snap-mandatory">
+      <!-- Product 1 -->
+      <a href="product1.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product1.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Premium Wireless Headphones</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(1,234)</span></div>
+        <div class="text-xl font-bold text-red-500">$99.99</div>
+      </a>
+
+      <!-- Product 2 -->
+      <a href="product2.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product2.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Smart Watch Fitness Tracker</h3>
+        <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(2,567)</span></div>
+        <div class="text-xl font-bold text-red-500">$149.99</div>
+      </a>
+
+      <!-- Product 3 -->
+      <a href="product3.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product3.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Ergonomic Wireless Mouse</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(892)</span></div>
+        <div class="text-xl font-bold text-red-500">$29.99</div>
+      </a>
+
+      <!-- Product 4 -->
+      <a href="product4.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product4.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Professional Laptop Bag</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(456)</span></div>
+        <div class="text-xl font-bold text-red-500">$49.99</div>
+      </a>
+
+      <!-- Product 5 -->
+      <a href="product5.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product5.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Waterproof Bluetooth Speaker</h3>
+        <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(3,421)</span></div>
+        <div class="text-xl font-bold text-red-500">$59.99</div>
+      </a>
+
+      <!-- Product 6 -->
+      <a href="product6.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product6.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">RGB Mechanical Keyboard</h3>
+        <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(1,876)</span></div>
+        <div class="text-xl font-bold text-red-500">$79.99</div>
+      </a>
+
+      <!-- Product 7 -->
+      <a href="product7.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product7.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Fitness Tracker Band</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(2,134)</span></div>
+        <div class="text-xl font-bold text-red-500">$69.99</div>
+      </a>
     </div>
-  </section>
-  
-  <!-- Hide Scrollbar -->
-  <style>
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-  </style>
+
+    <!-- Row 2 (Products 8–14) -->
+    <div class="overflow-x-auto no-scrollbar flex space-x-6 pb-4 snap-x snap-mandatory mt-6">
+      <!-- Product 8 -->
+      <a href="product8.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product8.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Android Tablet</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(1,023)</span></div>
+        <div class="text-xl font-bold text-red-500">$199.99</div>
+      </a>
+
+      <!-- Product 9 -->
+      <a href="product9.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product9.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">4K Smart LED TV</h3>
+        <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(4,232)</span></div>
+        <div class="text-xl font-bold text-red-500">$499.99</div>
+      </a>
+
+      <!-- Product 10 -->
+      <a href="product10.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product10.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Running Shoes</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(3,200)</span></div>
+        <div class="text-xl font-bold text-red-500">$89.99</div>
+      </a>
+
+      <!-- Product 11 -->
+      <a href="product11.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product11.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Travel Backpack</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(854)</span></div>
+        <div class="text-xl font-bold text-red-500">$59.99</div>
+      </a>
+
+      <!-- Product 12 -->
+      <a href="product12.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product12.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">DSLR Camera</h3>
+        <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(3,112)</span></div>
+        <div class="text-xl font-bold text-red-500">$699.99</div>
+      </a>
+
+      <!-- Product 13 -->
+      <a href="product13.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product13.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Polarized Sunglasses</h3>
+        <div class="text-yellow-400 text-sm">★★★★☆ <span class="text-gray-300">(2,234)</span></div>
+        <div class="text-xl font-bold text-red-500">$39.99</div>
+      </a>
+
+      <!-- Product 14 -->
+      <a href="product14.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+        <img src="product14.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+        <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Luxury Perfume</h3>
+        <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(1,234)</span></div>
+        <div class="text-xl font-bold text-red-500">$89.99</div>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- Row 3 (Products 15–16) -->
+<div class="overflow-x-auto no-scrollbar flex space-x-6 pb-4 snap-x snap-mandatory mt-6">
+  <!-- Product 15 -->
+  <a href="product15.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+    <img src="product15.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+    <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Automatic Washing Machine</h3>
+    <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(1,876)</span></div>
+    <div class="text-xl font-bold text-red-500">$399.99</div>
+  </a>
+
+  <!-- Product 16 -->
+  <a href="product16.html" class="min-w-[220px] snap-start bg-gray-800/50 rounded-lg shadow-md p-4 hover:shadow-2xl hover:bg-gray-700/70 transition transform hover:-translate-y-2 hover:scale-105 block overflow-hidden group">
+    <img src="product16.jpg" class="w-full h-40 object-cover rounded mb-2 transition-transform duration-500 group-hover:scale-105">
+    <h3 class="font-semibold text-gray-100 group-hover:text-white transition">Latest Smartphone</h3>
+    <div class="text-yellow-400 text-sm">★★★★★ <span class="text-gray-300">(6,432)</span></div>
+    <div class="text-xl font-bold text-red-500">$899.99</div>
+  </a>
+</div>
+
+
+<!-- Hide Scrollbar -->
+<style>
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
+
   
 
 <!-- FOOTER -->
